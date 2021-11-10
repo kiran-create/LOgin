@@ -2,7 +2,7 @@ body{
   margin:0;
   padding:0;
   background: #000;
-  max-width:1920px;
+  max-width:1908px;
   min-width:480px;
   
 }
@@ -24,10 +24,12 @@ body{
   width: 170px;
   background:  linear-gradient(#10ac84,#44bd32) ;
 }
-.cool input[type="submit"]:focus{
+.cool input[type="submit"]:focus
+{
   width: 150px;
 }
-.cool input[type="submit"]{
+.cool input[type="submit"]
+{
   border: 0;
 background: none;
       display: block;
