@@ -1,0 +1,86 @@
+body{
+  margin:0;
+  padding:0;
+  background: #000;
+}
+.cool input[type="text"],.cool input[type="password"]{
+  background: 0;
+  display: block;
+  text-align: center;
+  outline: none;
+  margin: 10px auto;
+  border:3px solid#f7f1e3;
+  color: white;
+  width: 150px;
+  padding: 15px 10px;
+  border-radius: 30px;
+  transition: 225ms;
+}
+.cool input[type="text"]:focus,.cool input[type="password"]:focus
+{
+  width: 170px;
+  background:  linear-gradient(#10ac84,#44bd32) ;
+}
+.cool input[type="submit"]:focus{
+  width: 150px;
+}
+.cool input[type="submit"]{
+  border: 0;
+background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      outline: none;
+      border: 3px solid #222f3e;
+      color: white;
+      width: 108px;
+      padding: 14px 10px;
+      border-radius:30px;
+      transition: 255ms;
+      cursor: pointer;
+}
+.cool input[type="submit"]:hover
+{
+background: green;
+cursor: pointer;
+
+}
+
+.cool{
+  position: relative;
+  margin: 200px auto 0;
+  width : 400px;
+  height:250px;
+  background: linear-gradient(0deg,#000,#262626);
+  text-align: center;
+}
+.cool:before,
+.cool:after
+{
+  content:'';
+  position:absolute;
+  top:-2px;
+  left:-2px;
+  background: linear-gradient(45deg,#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0,#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height:calc(100% + 4px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+.cool:after
+{
+filter:blur(20px);
+}
+@keyframes animate
+{
+0%{
+  background-position: 0 0;
+}
+50%{
+  background-position: 300% 0;
+}
+100%{
+  background-position: 0 0;
+}
+}
