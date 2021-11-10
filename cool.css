@@ -1,7 +1,10 @@
 body{
   margin:0;
   padding:0;
-  background: #000;
+  background: #0000;
+  max-width:1920px;
+  min-width:480px;
+  
 }
 .cool input[type="text"],.cool input[type="password"]{
   background: 0;
@@ -46,11 +49,6 @@ cursor: pointer;
 
 }
 
-.cool{
-  max-width:1920px;
-  min-width:480px;
-  
-}
 
 .cool{
   position: relative;
