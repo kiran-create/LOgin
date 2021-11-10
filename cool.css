@@ -64,7 +64,7 @@ cursor: pointer;
   position:absolute;
   top:-2px;
   left:-2px;
-  background: linear-gradient(45deg, green,red);
+  background: linear-gradient(45deg, :#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0,#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0);
   background-size: 400%;
   width: calc(100% + 4px);
   height:calc(100% + 4px);
@@ -87,4 +87,4 @@ filter:blur(20px);
   background-position: 0 0;
 }
 }
-:#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0,#fb0094,#0000ff ,#00ff00,#fff000,#ff00f0);
+
