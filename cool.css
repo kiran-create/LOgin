@@ -2,8 +2,6 @@ body{
   margin:0;
   padding:0;
   background: black;
-  max-width:1908px;
-  min-width:480px;
   
 }
 .cool input[type="text"],.cool input[type="password"]{
