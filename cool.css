@@ -47,6 +47,12 @@ cursor: pointer;
 }
 
 .cool{
+  max-width:1920px;
+  min-width:480px;
+  
+}
+
+.cool{
   position: relative;
   margin: 200px auto 0;
   width : 400px;
